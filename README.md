@@ -5,7 +5,7 @@ This repository implements fast wavelet transform and wavelet packets transform 
 As well, it implements the wavelet conditional renormalisation group with score matching.  
 
 # Install
-For fast wavelet transform and wavelet packets transform in pytorch download the folder *Wavelet_packets* :
+For fast wavelet transform and wavelet packets transform in pytorch download the folder *Wavelet_Packets* :
 
 ```python
 import sys
@@ -13,9 +13,9 @@ sys.path.append('~/where/you/download/the/script/')
 ``` 
 Then, import it:
 ```python
-import Wavelet_Packet
+import Wavelet_Packets
 ```
-For wavelet conditional renormalisation group, as it is a package that uses Wavelet_Packet, you must download  both folders *Wavelet_Packet* and *WCRG*
+For wavelet conditional renormalisation group, as it is a package that uses *Wavelet_Packets*, you must download  both folders *Wavelet_Packets* and *WCRG*
 
 ```python
 import sys
@@ -23,7 +23,7 @@ sys.path.append('~/where/you/download/the/script/')
 ``` 
 Then, import both:
 ```python
-import Wavelet_Packet
+import Wavelet_Packets
 import WCRG
 ```
 
